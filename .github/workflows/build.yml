@@ -7,7 +7,8 @@ on:
   pull_request:
       types: [opened, synchronize, reopened]
 jobs:
-  sonarqube:
+ build:
+    name: Buil
     runs-on: ubuntu-latest
     permissions: read-all
     steps:
